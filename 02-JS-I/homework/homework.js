@@ -160,7 +160,6 @@ function obtenerAreaRectangulo(alto, ancho) {
   return alto*ancho
 }
 
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
