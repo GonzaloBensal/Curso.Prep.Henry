@@ -163,6 +163,7 @@ describe('pasarUsuarioAPremium(users)', function() {
       { esPremium: false },
       { esPremium: false },
     ];
+  
     const updatedUsers = [
       { esPremium: true },
       { esPremium: true },
@@ -170,6 +171,9 @@ describe('pasarUsuarioAPremium(users)', function() {
       { esPremium: true },
       { esPremium: true },
     ];
+/*    const updatedUser = pasarUsuarioAPremium(users)[0];
+    expect(updatedUser['esPremium']).toBe(true);*/ //colo.jose
+
     expect(pasarUsuarioAPremium(users)).toEqual(updatedUsers);
   });
 });
