@@ -5,7 +5,9 @@
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
 * `prototype`
+Prototype es como si fuera el padre/madre del objeto, el objeto sería el hijo. El hijo puede parecerse al padre en varios aspectos, como en el color de ojos, forma de la nariz, el pelo, etc. Que sean similares en ciertos aspectos es por causa de la herencia, lo cual se transmite de madres y padres a hijos, en este caso el objeto hereda de prototype.
 * _Constructors_ (de Clases)
+Es un creador de objetos de clase
 
 2. Desde la carpeta `Prep` en la carpeta donde clonaste el repo, ingresa el comando `npm test JSV.test.js` para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo `homework.js`.
 
