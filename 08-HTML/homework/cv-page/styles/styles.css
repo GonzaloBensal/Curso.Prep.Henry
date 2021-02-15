@@ -1,0 +1,63 @@
+.header{
+    background-image: initial;
+    background-color: rgb(27, 29, 30);
+    white-space: pre;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    opacity: 80%; 
+}
+
+#header-title{
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
+    padding: auto;
+    background-color: aquamarine;
+    border-radius: 20 px;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+    margin: auto;
+}
+
+.wrapper-page{
+    margin-top: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .page{
+    margin-top: 80px;
+    padding: auto;
+    background-color: aquamarine;
+    border-radius: 20 px;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+    margin: auto;
+} */
+
+.paragraph{
+    margin: auto;
+    background-color: grey;
+    border-radius: 20 px;
+    position: relative;
+    display:block;
+
+}
