@@ -1,0 +1,33 @@
+.parent{
+    display:inline-block;
+    border: 2px black dotted;
+}
+
+.box{
+    display:inline-block;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* margin: 2px;
+    float: left; */
+}
+
+#one{
+    border: 2px dashed green;
+}
+
+#two{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px dashed blue;
+    background-color: green;
+}
+
+#three{
+    border: 2px dashed violet;
+}
+
+#four{
+    border: 2px dashed gray;
+}
